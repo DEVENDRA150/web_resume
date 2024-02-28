@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.profile-image {
+    width: 50px; /* Adjust size as needed */
+    height: 60px; /* Adjust size as needed */
+    border-radius: 50%; /* Make it circular */
+    margin-right: 10px; /* Add some margin */
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px; /* Adjusted margin */
+    font-size: 18px;
+    padding: 15px 20px; /* Adjusted padding */
+    border-radius: 5px; /* Added border-radius */
+    background-color: #555; /* Button background color */
+    cursor: pointer; /* Added cursor */
+    width: 200px; /* Adjusted width */
+    height: 30px; /* Added height */
+    display: inline-block; /* Ensures button elements are displayed as blocks */
+    line-height: 50px; /* Align text vertically */
+    transition: transform 0.1s ease-in-out; /* Added smooth transition */
+}
+
+nav a:hover {
+    transform: translateY(-2px); /* Move the button slightly up on hover */
+    background-color: #666; /* Change background color on hover */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a slight shadow */
+}
+
+section {
+    padding: 20px;
+    background-color: #f2f2f2;
+    display: none;
+    width: 1300px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out; /* Added smooth transition */
+    
+}
+
+section.active {
+    display: block;
+}
+
+section:hover {
+    transform: translateY(-2px); /* Move the section slightly up on hover */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a slight shadow */
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.about-section {
+    background-color: #001f3f;
+    color: #fff;
+}
+
+.right-aligned-image {
+    float: right;
+    margin-top: -100px; /* Adjust this value to move the image up */
+}
+
+
+.about-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.about-content h3 {
+    margin-top: 20px;
+}
+
+.about-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-content ul li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.about-content ul li:last-child {
+    border-bottom: none;
+}
+
+.contact-info {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contact-item img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.contact-item a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}

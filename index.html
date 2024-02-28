@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devendra Baghel</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+    <header>
+        <img src="D:\0.4 Devendra\Study\Italy\Photo\photo.jpeg" alt="Profile Image" class="profile-image">
+        <h1>Devendra Baghel</h1>
+    </header>
+    <nav>
+        <a href="#" onclick="showSection('home')">Home</a><!--Home Button-->
+        <a href="#" onclick="showSection('about')">About</a><!--About Button-->
+        <a href="#" onclick="showSection('projects')">Projects</a><!--Projects Button-->
+        <a href="#" onclick="showSection('resume')">My Resume</a><!--My Resume Button-->
+        <a href="#" onclick="showSection('contact')">Contact Me</a><!--Contact Me Button-->
+    </nav>
+    <section id="home" class="active">
+        <h2>Hi There</h2>
+        <p><strong>I'm Devendra Baghel</strong></p>
+        <p>Data Analyst</p>
+        <p>Data Analyst</p>
+        <!-- Add the image here -->
+        <img src="C:\Users\DevendraBaghel\Downloads\WhatsApp Image 2024-02-22 at 10.38.14 AM.jpeg" alt="Image Description" class="right-aligned-image" width="500" height="300">
+
+    </section>
+    <!-- <section id="about" class="about-section">
+        <h2>About</h2>
+        <p>Show my resume here...</p>
+    </section> -->
+    <section id="about" class="about-section">
+        <h2>About</h2>
+        <div class="about-content">
+            <p>I am Devendra Baghel. I am from Agra, Uttar Pradesh, India. I am having 3.5 years of experience in BI Domain. Right now I am working as Senior Data Analyst.</p>
+            <h3>Education</h3>
+            <ul>
+                <li>Bachelor of Science in Mathematics (2012 - 2015)<br>Dayalbagh Educational Institute, Agra, Uttar Pradesh</li>
+                <li>Master of Science in Mathematics (2016 - 2018)<br>Agra College, Agra, Uttar Pradesh</li>
+                <li>Master of Business Administration (2018 - 2020)<br>Dayalbagh Educational Institute, Agra, Uttar Pradesh</li>
+            </ul>
+            <h3>Languages</h3>
+            <p>English and Hindi</p>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>List your projects here...</p>
+    </section>
+    <!-- <section id="resume">
+        <h2>My Resume</h2>
+        <p>Display your resume here...</p>
+    </section> -->
+    <section id="resume">
+        <h2>My Resume</h2>
+        <embed src="C:\Users\DevendraBaghel\Downloads\DevendraBaghelResume (3) (1).pdf" width="100%" height="800px" type='application/pdf'>
+    </section>
+    
+    <!-- <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Provide contact information here...</p>
+    </section> -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <img src="phone_icon.png" alt="Phone Icon">
+                <span>+91 8923361090</span>
+            </div>
+            <div class="contact-item">
+                <img src="email_icon.png" alt="Email Icon">
+                <span>devenbaghel1838@gmail.com</span>
+            </div>
+            <div class="contact-item">
+                <img src="linkedin_icon.png" alt="LinkedIn Icon">
+                <a href="https://www.linkedin.com/in/devenbaghel1838" target="_blank">www.linkedin.com/in/devenbaghel1838</a>
+            </div>
+            <div class="contact-item">
+                <img src="location_icon.png" alt="Location Icon">
+                <span>Noida, Delhi, India</span>
+            </div>
+            <div class="contact-item">
+                <img src="github_icon.png" alt="GitHub Icon">
+                <a href="https://github.com/DEVENDRA150" target="_blank">DEVENDRA150</a>
+            </div>
+        </div>
+    </section>
+    
+
+    <script>
+        function showSection(sectionId) {
+            // Hide all sections
+            document.querySelectorAll('section').forEach(function(section) {
+                section.classList.remove('active');
+            });
+            // Show the selected section
+            document.getElementById(sectionId).classList.add('active');
+        }
+    </script>
+</body>
+</html>
